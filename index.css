@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Bree Serif', serif;
     margin: 0;
@@ -5,6 +8,7 @@ body {
     background-color: black;
     color: white;
 }
+
 
 .navbar li {
     display: inline-block;
@@ -132,14 +136,14 @@ p {
     top:219%;
     left: 0;
     width: 100%;
-    height: 120vh;
+    height: 130vh;
 }
 #contact h1{
     margin-left: 30vw;
 }
 #contact h2{
     margin-left: 27vw;
-    padding: 33pxpx;
+    padding: 10px;
     font-size: 38px;
     margin-top: -3vh;
 }
@@ -152,35 +156,47 @@ p {
 }
 .details{
     font-size: 20px;
-    margin-left: -1vw;
+    margin-left: -.7vw;
 }
 #name{
-    border: 2px solid black;
+        border: 2px solid #a09797;
+    outline: none;
+    border-radius: 4px;
     width: 100%;
     padding: 12px 20px;
     margin-left: -12px;
     box-sizing: border-box;
-  }
+    margin-top: 10px;
+}
 #email{
-    border: 2px solid black;
+        border: 2px solid #a09797;
+    outline: none;
+    border-radius: 4px;
     width: 100%;
     padding: 12px 20px;
     margin-left: -13px;
     box-sizing: border-box;
+    margin-top: 10px;
   }
 #phone{
-    border: 2px solid black;
     width: 100%;
     padding: 12px 20px;
     margin-left: -9px;
     box-sizing: border-box;
+        border: 2px solid #a09797;
+    outline: none;
+    border-radius: 4px;
+    margin-top: 10px;
 }
 textarea{
-    border: 2px solid black;
+    border: 2px solid #a09797;
+    outline: none;
+    border-radius: 4px;
     width: 100%;
     padding: 12px 20px;
     margin-left: -1vw;
     box-sizing: border-box;
+    margin-top: 10px;
 }
 .gender {
     display: block;
@@ -196,6 +212,8 @@ textarea{
     position: absolute;
     opacity: 0;
     cursor: pointer;
+    outline: none;
+    border: 0;
   }
   
   /* custom radio button */
@@ -228,12 +246,12 @@ textarea{
 }
   
 .gender .check:after {
-      top: 8px;
-      left: 8px;
-      width: 15px;
-      height: 15px;
-      border-radius: 50%;
-      background: white;
+    top: 8px;
+    left: 8px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: white;
 }
 input[type="submit"]{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -250,5 +268,9 @@ input[type="submit"]{
     color: #cecece;
     margin-left: -2vw;
     margin-top: 3vh;
+    transition: all 0.3s ease-in;
 }
 
+input[type='submit']:hover{
+    opacity: 0.7;
+}
