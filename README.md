@@ -10,4 +10,5 @@
 ## Technologies to be used:
 HTML
 CSS
-Note: One issue can be assigned to one only person at a time (First come, First Serve).
+## Note:
+ One issue can be assigned to one only person at a time (First come, First Serve).
