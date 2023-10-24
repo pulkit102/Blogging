@@ -1,6 +1,7 @@
-html{
+html {
     scroll-behavior: smooth;
 }
+
 body {
     font-family: 'Bree Serif', serif;
     margin: 0;
@@ -62,7 +63,8 @@ h1 {
 p {
     text-align: center;
 }
-#homepage button a{
+
+#homepage button a {
     text-decoration: none;
     color: #cecece;
 }
@@ -81,30 +83,33 @@ p {
     margin-left: 44vw;
 }
 
-.btn:hover{
-    color: rgb(11, 17, 11) ;
+.btn:hover {
+    color: rgb(11, 17, 11);
     background-color: #343232;
 }
-#about{
+
+#about {
     background-color: rgb(71 70 72 / 32%);
     position: absolute;
-    top:100%;
+    top: 100%;
     /* position: absolute; */
     left: 0;
     width: 100%;
     height: auto;
-    padding:1.5rem ;
-    
+    padding: 1.5rem;
+
 }
-#about h1{
+
+#about h1 {
     margin-bottom: 25vh;
     margin-left: 43vw;
 }
-#about p{
+
+#about p {
     width: 40vw;
     height: 20vh;
     padding: 35px;
-    display:flex;
+    display: flex;
     flex-direction: column;
     margin-right: 50%;
     margin-left: 29%;
@@ -112,11 +117,12 @@ p {
     margin-top: -180px;
     margin-bottom: 5rem;
 }
-#blog{
+
+#blog {
     background-color: rgb(74 64 61);
     /* background: url('aboutbg.jpg') no-repeat center center/cover; */
     position: absolute;
-    top:159.5%;
+    top: 159.5%;
     /* width: 100%; */
     /* opacity: 0.6; */
     position: absolute;
@@ -125,44 +131,52 @@ p {
     width: 100%;
     height: 60vh;
 }
-#blog h1{
+
+#blog h1 {
     margin-top: 30vh;
     margin-left: 30vw;
 }
-#blog img{
+
+#blog img {
     margin-top: -49vh;
     margin-left: 61vw;
 }
-#contact{
+
+#contact {
     background: linear-gradient(135deg, #042033, #4e3c55);
     position: absolute;
-    top:219%;
+    top: 219%;
     left: 0;
     width: 100%;
     height: 130vh;
 }
-#contact h1{
+
+#contact h1 {
     margin-left: 30vw;
 }
-#contact h2{
+
+#contact h2 {
     margin-left: 27vw;
     padding: 10px;
     font-size: 38px;
     margin-top: -3vh;
 }
-.contactform{
+
+.contactform {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 90vh;
     align-items: center;
 }
-.details{
+
+.details {
     font-size: 20px;
     margin-left: -.7vw;
 }
-#name{
-        border: 2px solid #a09797;
+
+#name {
+    border: 2px solid #a09797;
     outline: none;
     border-radius: 4px;
     width: 100%;
@@ -171,8 +185,9 @@ p {
     box-sizing: border-box;
     margin-top: 10px;
 }
-#email{
-        border: 2px solid #a09797;
+
+#email {
+    border: 2px solid #a09797;
     outline: none;
     border-radius: 4px;
     width: 100%;
@@ -180,18 +195,20 @@ p {
     margin-left: -13px;
     box-sizing: border-box;
     margin-top: 10px;
-  }
-#phone{
+}
+
+#phone {
     width: 100%;
     padding: 12px 20px;
     margin-left: -9px;
     box-sizing: border-box;
-        border: 2px solid #a09797;
+    border: 2px solid #a09797;
     outline: none;
     border-radius: 4px;
     margin-top: 10px;
 }
-textarea{
+
+textarea {
     border: 2px solid #a09797;
     outline: none;
     border-radius: 4px;
@@ -201,6 +218,7 @@ textarea{
     box-sizing: border-box;
     margin-top: 10px;
 }
+
 .gender {
     display: block;
     position: relative;
@@ -208,18 +226,18 @@ textarea{
     margin-bottom: 20px;
     cursor: pointer;
     font-size: 25px;
-  }
-  
-  /* Hide the default radio button */
+}
+
+/* Hide the default radio button */
 .gender input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
     outline: none;
     border: 0;
-  }
-  
-  /* custom radio button */
+}
+
+/* custom radio button */
 .check {
     position: absolute;
     top: 0;
@@ -229,25 +247,25 @@ textarea{
     background-color: lightgray;
     border-radius: 50%;
 }
-  
-.gender:hover input ~ .check {
+
+.gender:hover input~.check {
     background-color: gray;
 }
-  
-.gender input:checked ~ .check {
+
+.gender input:checked~.check {
     background-color: blue;
 }
-  
+
 .check:after {
     content: "";
     position: absolute;
     display: none;
 }
-  
-.gender input:checked ~ .check:after {
+
+.gender input:checked~.check:after {
     display: block;
 }
-  
+
 .gender .check:after {
     top: 8px;
     left: 8px;
@@ -256,7 +274,8 @@ textarea{
     border-radius: 50%;
     background: white;
 }
-input[type="submit"]{
+
+input[type="submit"] {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     /* background-color: rgb(111 15 121); */
@@ -271,9 +290,43 @@ input[type="submit"]{
     color: #cecece;
     margin-left: -2vw;
     margin-top: 3vh;
+    /* margin-bottom: 200px; */
     transition: all 0.3s ease-in;
 }
 
-input[type='submit']:hover{
+input[type='submit']:hover {
     opacity: 0.7;
+}
+
+footer {
+    margin-top: 50px;
+    border-top: 50px;
+    width: 100%;
+    bottom: 0px;
+    position: relative;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: #fff;
+    font-size: 12px;
+    line-height: 20px;
+    border-top: #fff solid 1px;
+
+}
+
+.row {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col {
+    flex-basis: 20%;
+    padding: 5px;
+}
+
+.col h3 {
+    width: fit-content;
+    position: relative;
 }
