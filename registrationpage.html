@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>newone
+</title>
+<style>
+html, body {
+      display: flex;
+      justify-content: center;
+      height: 100%;
+      font-family: Roboto, Arial, sans-serif;;
+      }
+      form{
+        border: 10px darkblue;
+      }
+      h1{
+        padding: 5px;
+        color: grey;
+        margin: 20px;
+      }
+      .main-block {
+      max-width: 413px; 
+      min-height: 460px; 
+      padding: 10px 0;
+      margin: 50px;
+      border-radius: 25px; 
+      border: solid 1px #ccc;
+      box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+      background: #ebebeb;
+width:600px; 
+      }
+      input[type="email"],
+      input[type="password"],
+      input[type="text"],
+      input[type="submit"]
+        {
+        padding: 5px;
+        border-radius: 4px;
+        margin: 5px;
+        text-shadow: 0cqb;
+        width: 85%;
+      }
+      input[type="submit"]{
+        background-color: #3565a8;
+        color: white;
+        font-size: 18px;
+      }
+      input[type="submit"]:hover{
+        background-color: blue;
+        
+      }
+      .who_u_are,.gender{
+        margin: 15px 0;
+        font-size: 20px;
+        color: grey;
+      }
+      h6{
+        padding: 10px;
+        text-align: center;
+      }
+      .gender ,.who_u_are{
+        font-size: 25px;
+      }
+      #icon {
+      display: inline-block;
+      padding: 9.3px 15px;
+      box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+      background: #1c87c9;
+      color: #fff;
+      text-align: center;
+      }
+</style></head>
+<body> <center><form><div class="main-block">
+    <h1>Registration</h1><hr width="85%">
+    <div class="who_u_are">
+   <p>  personal <input type="radio" class="kon ho" id="kon ho" required>
+    company <input type="radio" name="kon ho" id="kon ho" required></p><hr width="85%">
+</div>
+    <label id="icon" for="email"><i class="fas fa-envelope"></i></label>
+    <input type="email" name="email" id="email" placeholder="E-mail" ><br> 
+    <label id="icon" for="name"><i class="fas fa-user"></i></label>
+    <input type="text" name="name" id="name" placeholder="Name"><br>
+    <label id="icon" for="password"><i class="fas fa-unlock-alt"></i></label>
+    <input type="password" name="password" id="password" placeholder="password"><hr width="85%">
+    <div class="gender">
+    <p>male <input type="radio" name="gender" id="gender"> 
+    female <input type="radio" name="gender" id="gender"></p><hr width="85%">
+</div>
+    <h6 style="color: grey;">by clicking Register,you agree on our <a href="#">privacy and policies</a></h6>
+    <input type="submit" value="submit">
+</body></center></form></div>
+</html>
+
